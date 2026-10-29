@@ -1,0 +1,81 @@
+DevOps Lifecycle and Tools
+
+DevOps is a combination of Development and Operations. It helps teams develop, test, deploy, and maintain software faster and more efficiently.
+
+1. Plan — Jira and Azure Dashboards
+
+Jira: Jira is a project management tool used to plan tasks, assign work to team members, and track project progress.
+
+Azure Dashboards: Azure Dashboards display important project information, progress, and performance in one place.
+
+Example: A team uses Jira to assign tasks to developers.
+
+2. Code — Git and GitHub
+
+Git: Git is a version control tool that tracks changes in source code and helps developers manage different versions.
+
+GitHub: GitHub is an online platform used to store Git repositories, share code, and collaborate with other developers.
+
+Example: A developer writes code and pushes it to GitHub.
+
+3. Build — Maven and Gradle
+
+Maven: Maven is a build automation tool mainly used for Java projects. It manages dependencies and builds applications.
+
+Gradle: Gradle is a build automation tool used to compile code, manage dependencies, and build applications.
+
+Example: Maven builds a Java project into a JAR file.
+
+4. Test — JUnit and Selenium
+
+JUnit: JUnit is a Java testing framework used to test individual parts of a Java application.
+
+Selenium: Selenium is a tool used to automate testing of web applications in browsers.
+
+Example: JUnit tests a Java method, while Selenium tests a website's login page.
+
+5. Release — Jenkins and GitHub Actions
+
+Jenkins: Jenkins is an automation server used to automate software building, testing, and release workflows.
+
+GitHub Actions: GitHub Actions automates workflows such as building, testing, and releasing code directly from GitHub.
+
+Example: When code is updated, Jenkins or GitHub Actions can automatically start a build and test process.
+
+6. Deploy — Docker and Kubernetes
+
+Docker: Docker packages an application and its dependencies into containers so it can run consistently in different environments.
+
+Kubernetes: Kubernetes manages containers, including deploying, scaling, and restarting them when necessary.
+
+Example: Docker packages an application into a container, and Kubernetes manages that container when Kubernetes is used.
+
+7. Operate — Ansible
+
+Ansible: Ansible is an automation tool used to configure servers, install software, and perform repetitive IT tasks.
+
+Example: Ansible installs and configures software on multiple servers automatically.
+
+8. Monitor — Grafana
+
+Grafana: Grafana is a monitoring and visualization tool used to display system and application information in dashboards.
+
+It can help teams understand performance and identify problems. It commonly uses data from sources such as Prometheus.
+
+Example: Grafana displays CPU usage, memory usage, and application performance on a dashboard.
+
+---
+
+Summary Table
+
+Stage| Tools| Main Purpose
+Plan| Jira, Azure Dashboards| Plan and track tasks
+Code| Git, GitHub| Manage and store code
+Build| Maven, Gradle| Build applications
+Test| JUnit, Selenium| Test code and websites
+Release| Jenkins, GitHub Actions| Automate release workflows
+Deploy| Docker, Kubernetes| Package and deploy applications
+Operate| Ansible| Automate server configuration
+Monitor| Grafana| Visualize system performance
+
+Conclusion: These tools work together throughout the DevOps lifecycle to help teams automate tasks, deliver software efficiently, and maintain application quality.
